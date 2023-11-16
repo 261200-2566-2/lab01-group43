@@ -11,6 +11,7 @@ public class Main {
         int[] arr = new int[num]; // สร้าง array จากเลขที่ input เข้ามา
 
         System.out.print("Pls enter number what you want : ");
+
         for (int i = 0; i < num; i++) {
             arr[i] = s.nextInt(); // วน for เอาค่าที่ input เข้าไปใน array แต่ละตัวตามจำนวนขนาด array
         }
