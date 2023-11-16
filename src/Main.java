@@ -15,6 +15,7 @@ public class Main {
         }
         sort(arr); // ส่งไปยัง method sort
     }
+
     public static void sort(int[] arr){ // เรียงข้อมูลใน array โดยรับ array และ size of array มา
         Arrays.sort(arr); // ใช้ import class array เพื่อใช้คำสั่ง sort array
         System.out.println("Sorted Array is ");
